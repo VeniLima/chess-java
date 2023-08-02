@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author tando
+ *
+ */
+module chess {
+}
