@@ -84,7 +84,7 @@ public class UI {
 			}
 			System.out.println();
 		}
-		System.out.println("  a b c d e f h h");
+		System.out.println("  A B C D E F G H");
 	}
 	
 	public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
