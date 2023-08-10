@@ -70,7 +70,11 @@ public class Bishop extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return "B";
+		if(this.getColor() == Color.BLACK) {
+			return "♝";
+		}else {
+			return "♗";
+		}
 	}
 
 }
