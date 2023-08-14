@@ -129,7 +129,11 @@ public class Queen extends ChessPiece{
 	
 	@Override
 	public String toString() {
-		return "Q";
+		if(this.getColor() == Color.BLACK) {
+			return "♛";
+		}else {
+			return "♕";
+		}
 	}
 
 }
