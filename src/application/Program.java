@@ -40,6 +40,13 @@ public class Program {
 				if(capturedPiece != null) {
 					capturedPieces.add(capturedPiece);
 				}
+				
+				if(chessMatch.getPromoted() != null) {
+					System.out.print("Enter a piece for promotion (B/N/R/Q): ");
+					String type = input.nextLine();
+					chessMatch.replacePromotedPiece(type.toUpperCase());
+					
+				}
 			}
 			catch(ChessException e){
 				System.out.println(e.getMessage());
